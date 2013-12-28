@@ -7,7 +7,7 @@
   <link type="text/css" rel="StyleSheet" href="css/main.css"/>
   <style type="text/css">
     body{
-      background-image:url(images/bg.png);
+      background:url(./images/bg.png);
     }
     .item-title{
       width:100px;
@@ -27,25 +27,27 @@
       vertical-align: middle;
     }
     .item-wrap{
-      display:-moz-box;
-      display:-webkit-box;
-      display:box;
       padding:6px 0px;
       border-bottom:solid 1px #aaa;
-      margin-bottom:6px;
+      margin-bottom:3px;
       width: 100%;
     }
     .item-box-left{
-      width: 100px;
+      width: 900px;
+      font-size:18px;
+      background-image:-webkit-linear-gradient(90deg, #02F, white);
+      background-image:linear-gradient(90deg,#02F, white);
     }
     .item-box-right{
-       width: 700px;
+       width: 870px;
+       margin-left:30px;
+       margin-top:6px;
     }
     .item-title-hl{
+      width: 900px;
       font-size:18px;
-      padding:4px;
-      background-color: #ddd; 
-      border-bottom:solid 2px #ccc;
+      font-weight:bold;
+      color:#FFF;
     }
     .project-title{
       font-size:18px;
@@ -91,14 +93,19 @@
   </style>
   <script type="text/javascript" src="js/jquery.js"></script>
 </head>
-<body style="margin:0px auto;width:800px;">
+<body style="margin:0px auto;width:900px;">
   <header>
     <h1 style="color:#e8e8e8; font-size: 30px; font-weight:bold;text-align:right;text-shadow: 2px 2px 2px #333, 0px 0px 5px #666; margin-top:15px;">Benjin Mei</h1>
     <section style="padding:6px 0px;">
-      <hr/>
+      
     </section>
   </header>
   <article style="padding:10px 0px;">
+  <section class="item-wrap">
+      <section class="item-box-left">
+        <span class="item-title-hl">Profile</span>
+        </section>
+        
     <section>
       <table style="width:100%">
         <tr>
@@ -114,12 +121,6 @@
           <td class="item-content"><a title="给我发邮件" href="mailto:meibenjin@gmail.com">meibenjin@gmail.com</a>
           </td>
         </tr>
-        <!--<tr>
-          <td class="item-title">性别：</td>
-          <td class="item-content">男</td>
-          <td class="item-title">出生日期：</td>
-          <td class="item-content">1989.05</td>
-        </tr> -->
         <tr>
           <td class="item-title">Blog:</td>
           <td class="item-content" colspan="3">
@@ -127,8 +128,8 @@
           </td>
         </tr>
       </table>
+      </section>
     </section>
-    <section style="margin:4px 0px; height:2px; background-color:#888;"></section>
     <section class="item-wrap">
       <section class="item-box-left">
         <span class="item-title-hl">Key Skills</span>
@@ -145,23 +146,6 @@
           <li>熟悉Linux常用命令、操作及web server(Apache)部署</li>
           <li>熟悉PHP语法，能够编写常见页面及逻辑处理模块</li>
         </ul>
-      </section>
-    </section>
-    <section class="item-wrap">
-      <section class="item-box-left">
-        <span class="item-title-hl">Education</span>
-      </section>
-      <section class="item-box-right" style="margin-bottom:10px;">
-        <table>
-          <tr>
-            <td style="width:150px;">2012.09 ~ Present</td>
-            <td style="width:400px;">Candidate Master of Database, Renmin University of China</td>
-          </tr>
-          <tr>
-            <td style="width:150px;">2008 ~ 2012</td>
-            <td style="width:400px;">Bachelor of Computer Science and Technology, Beijing Forestry University</td>
-          </tr>
-        </table>
       </section>
     </section>
     <section class="item-wrap">
@@ -207,7 +191,57 @@
     </section>
     <section class="item-wrap">
       <section class="item-box-left">
-        <span class="item-title-hl">Self-appraisal</span>
+        <span class="item-title-hl">Education</span>
+      </section>
+      <section class="item-box-right" style="margin-bottom:10px;">
+        <table>
+          <tr>
+            <td style="width:150px;">2012.09 ~ Present</td>
+            <td style="width:450px;">Candidate Master of Database, Renmin University of China</td>
+          </tr>
+          <tr>
+            <td style="width:150px;">2008 ~ 2012</td>
+            <td style="width:450px;">Bachelor of Computer Science and Technology, Beijing Forestry University</td>
+          </tr>
+        </table>
+      </section>
+    </section>
+    <section class="item-wrap">
+      <section class="item-box-left">
+        <span class="item-title-hl">Awarding</span>
+      </section>
+      <section class="item-box-right" style="margin-bottom:10px;">
+        <table>
+          <tr>
+            <td style="width:150px;">2008.10</td>
+            <td style="width:870px;">The Chaoyang Urban Service Volunteer Certificate of post Beijing Olympic</td>
+          </tr>
+          <tr>
+            <td style="width:150px;">2008.11</td>
+            <td style="width:870px;">National Scholarship</td>
+          </tr>
+          <tr>
+            <td style="width:150px;">2009.11</td>
+            <td style="width:870px;">National Scholarship</td>
+          </tr>
+          <tr>
+            <td style="width:150px;">2010.06</td>
+            <td style="width:870px;">Successful Participant at Mathematical Contest In Modeling</td>
+          </tr>
+           <tr>
+            <td style="width:150px;">2011.04</td>
+            <td style="width:870px;">Second Prize of C language in The Software Design and Development of Professional Talent Contest</td>
+          </tr>
+          <tr>
+            <td style="width:150px;">2011.11</td>
+            <td style="width:870px;">Baosteel Scholarship</td>
+          </tr>
+        </table>
+      </section>
+    </section>
+    <section class="item-wrap">
+      <section class="item-box-left">
+        <span class="item-title-hl">Self Evaluation</span>
       </section>
       <section class="item-box-right" style="margin-bottom:10px;">
         <ul>
