@@ -120,13 +120,11 @@
     <div class="container footer">
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="./index.html">Back to top</a></p>
+        <p class="pull-right"><a href="scroll_top();">Back to top</a></p>
         <p>© 2014 Company, Inc. · <a href="./index.html">Privacy</a> · <a href="./index.html">Terms</a></p>
       </footer>
 
     </div><!-- /.container -->
-
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -134,34 +132,9 @@
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/docs.min.js"></script>
+    <script src="./js/basic.js"></script>
     <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'blogmbj';
-        //var disqus_identifier = 'newid1';
-        var disqus_url = 'http://www.meibenjin.cn/index.html';
-        var disqus_config = function () { 
-            this.language = "zh_cn";
-        };
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-             dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-         })();
-
-        /* * * Disqus Reset Function * * */
-        var reset = function (newIdentifier, newUrl, newTitle, newLanguage) {
-            DISQUS.reset({
-                reload: true,
-                config: function () {
-                    this.page.identifier = newIdentifier;
-                    this.page.url = newUrl;
-                    this.page.title = newTitle;
-                    this.language = newLanguage;
-                }
-            });
-        };
+        load_disqus();
     </script>
 </body>
 </html>
