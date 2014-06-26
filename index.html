@@ -120,7 +120,7 @@
     <div class="container footer">
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="javascript:void(0)" onclick="scroll_top();" >Back to top</a></p>
+        <p class="pull-right"><a href="#top" id="toTop" >Back to top</a></p>
         <p>© 2014 Company, Inc. · <a href="./index.html">Privacy</a> · <a href="./index.html">Terms</a></p>
       </footer>
 
@@ -133,6 +133,11 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/docs.min.js"></script>
     <script src="./js/basic.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("#toTop").scrollToTop(1000);
+        })
+    </script>
     <script type="text/javascript">
         load_disqus();
     </script>
