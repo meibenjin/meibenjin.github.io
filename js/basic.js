@@ -27,3 +27,11 @@ function load_disqus() {
         });
     };
 }
+function scroll_top() { 
+    if(document.documentElement.scrollTop==0) {
+        clearTimeout(scrolldelay);
+    }
+    window.scrollBy(0,-10); 
+    scrolldelay = setTimeout('scroll_top()',100); 
+}
+ 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="blog">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Blog@AfterSummer</title>
+    <title>AfterSummer</title>
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -23,39 +23,31 @@
 
     <!-- Custom styles for this template -->
     <link href="./css/carousel.css" rel="stylesheet">
+    
+    <!-- AngularJS-->
+    <script type="text/javascript" src="./js/angular.min.js" > </script>
+    <script type="text/javascript" src="./js/angular-sanitize.min.js" ></script>
+    <script type="text/javascript" src="./js/angular-control.js"></script>
+    <style type="text/css">
+        .Home {
+            position: relative;
+        }
+    </style>
  </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
+    <div id = "nav_bar" class="navbar-wrapper" ng-controller="navbar_ctrl">
       <div class="container">
         <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="container">
+          <div class="container" >
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="./index.html">AfterSummer</a>
+              <a class="navbar-brand" href="{{config.nav_head.href}}">{{config.nav_head.text}}</a>
             </div>
             <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="./index.html">Home</a></li>
-                <li><a href="./index.html">About</a></li>
-                <li><a href="./index.html">Contact</a></li>
-                <li class="dropdown">
-                  <a href="./index.html" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="./index.html">Action</a></li>
-                    <li><a href="./index.html">Another action</a></li>
-                    <li><a href="./index.html">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="./index.html">Separated link</a></li>
-                    <li><a href="./index.html">One more separated link</a></li>
-                  </ul>
+              <ul class="nav navbar-nav" >
+                <li ng-repeat="bar in config.nav_bars" ng-class="{'active': bar.text == state}">
+                	<a href="{{bar.href}}">{{bar.text}}</a>
                 </li>
               </ul>
             </div>
@@ -65,48 +57,17 @@
       </div>
     </div>
 
-
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item">
-          <img src="./img/Grass_by_Jeremy_Hill.jpg" alt="First slide">
-        </div>
-        <div class="item active">
-          <img src="./img/THE_OUT_STANDING_by_ydristi.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Welcome to AfterSummer's World!</h1>
-              <p>Want know more? Click here</p>
-              <p><a class="btn btn-lg btn-primary" href="./index.html" role="button">About me</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="./img/Untitled_by_Garazi_Unzueta.jpg" alt="Third slide">
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
-
-    <!-- disqus discuss -->
+      <!-- content view -->
+    <div ng-view></div>
     <div class="container">
-        <div id="disqus_thread">
-        </div>
+      <!-- disqus discuss -->
+      <div id="disqus_thread"></div>
     </div>
 
-    <div class="container footer">
+    <div class="container footer" ng-controller="navbar_ctrl">
       <!-- FOOTER -->
       <footer>
-        <p class="pull-right"><a href="#top" id="toTop" >Back to top</a></p>
+        <p class="pull-right"><a href="{{}}" id="top" >Back to top</a></p>
         <p>© 2014 Company, Inc. · <a href="./index.html">Privacy</a> · <a href="./index.html">Terms</a></p>
       </footer>
 
@@ -118,12 +79,13 @@
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/docs.min.js"></script>
-    <script src="./js/basic.js"></script>
-    <script type="text/javascript">
-        $(function(){
-            $("#toTop").scrollToTop(1000);
-        })
+    <script src="js/showdown.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      });
     </script>
+    <script src="./js/basic.js"></script>
     <script type="text/javascript">
         load_disqus();
     </script>

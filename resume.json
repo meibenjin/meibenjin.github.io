@@ -1,0 +1,55 @@
+{
+    "basicInfo" : {
+        "name" : "Mei Benjin",
+        "description" : "Life is A Miracle",
+        "mail" : "meibenjin@gmail.com"
+    },
+    "education" : [
+        {
+            "period" : "2012/09 - 2015/06",
+            "university" : "Renmin University of China",
+            "college" : "School of Information",
+            "description" : "Master Degree in Engineering"
+        },
+        {
+            "period" : "2008/09 - 2012/06",
+            "university" : "Renmin University of China",
+            "college" : "School of Information",
+            "description" : "Bachelor Degree in Engineering"
+        }
+    ],
+    "workExperience" : [
+        {
+            "period" : "2014/07 ¨C Now",
+            "company" : "neeq",
+            "title" : "Software Engineer",
+            "description" : [
+                "to be continued."
+            ]
+        },
+    ],
+    "skills" : [
+        {
+            "category" : "Programming language",
+            "items" : [
+                {"name" : "C", "proficiency" : "proficient"},
+                {"name" : "Python", "proficiency" : "familiar"},
+                {"name" : "Shell", "proficiency" : "familiar"},
+                {"name" : "Java", "proficiency" : "familiar"},
+                {"name" : "SQL", "proficiency" : "familiar"}
+            ]
+        },
+        {
+            "category" : "Version Control",
+            "items" : [
+                {"name" : "Git", "proficiency" : "proficient"},
+                {"name" : "SVN", "proficiency" : "familiar"}
+            ]
+        }
+    ],
+    "projects" : [
+        {"name" : "Distributed Spatio-temporal System", "description" : "Design and implement a distribute spatio-temporal system on openstack cloud platform."},
+        {"name" : "meibenjin.cn", "description" : "A static blog on github. Using JavaScript to load blog article in Markdown format and render it dynamically."},
+        {"name" : "National Ministry of Education (Participant)", "description" : "Implement a system to analysis the similarity of multiple source files using Java. In this system, we use five different methods to measure the similarity of two source files. We also use Javacc to generate syntax tree for these source files."}
+    ]
+}

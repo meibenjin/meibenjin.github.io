@@ -1,0 +1,9 @@
+{
+    "nav_head" : {"text": "AfterSummer", "href": "#"},
+    "nav_bars" : [
+        {"text" : "Home", "href" : "#/Home"},
+        {"text" : "Blog", "href" : "#/Blog"},
+        {"text" : "Resume", "href" : "#/Resume"},
+        {"text" : "Links", "href" : "http://www.baidu.com"}
+    ]
+}
