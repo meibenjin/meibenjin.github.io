@@ -7,7 +7,7 @@ app = angular.module('blog', ['ngSanitize']).config([
       }).when("/Blog", {
         templateUrl: "partials/home.html"
       }).when("/Resume", {
-        templateUrl: "partials/resume.html#resume"
+        templateUrl: "partials/resume.html"
       }).when("/tag/:tag", {
         templateUrl: "partials/index-list.html"
       }).when("/post/:postPath", {
@@ -67,8 +67,8 @@ app.controller('navbar_ctrl', function($scope, $http, $location) {
   });
 
 app.controller('resume_ctrl', function($scope, $http) {
+    document.getElementById("nav_bar").style.position = "relative";
     return $http.get("resume.json").success(function(data) {
-      document.getElementById("nav_bar").style.position = "relative";
       return $scope.resume = data;
     });
   });
