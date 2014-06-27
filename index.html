@@ -13,6 +13,11 @@
 
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+    <link href="./css/default.css" rel="stylesheet">
+    <link href="./css/code.css" rel="stylesheet">
+    <link href="./css/resume.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -21,9 +26,7 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./js/ie10-viewport-bug-workaround.js"></script>
 
-    <!-- Custom styles for this template -->
-    <link href="./css/carousel.css" rel="stylesheet">
-    <link href="./css/resume.css" rel="stylesheet">
+    <script src="js/showdown.js"></script>
    
  </head>
 <!-- NAVBAR
@@ -51,19 +54,20 @@
 
       <!-- content view -->
     <div ng-view></div>
+
     <div class="container">
       <!-- disqus discuss -->
       <div id="disqus_thread"></div>
     </div>
 
+    <!--
     <div class="container footer" ng-controller="navbar_ctrl">
-      <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="{{}}" id="top" >Back to top</a></p>
         <p>© 2014 Company, Inc. · <a href="#/Home">Privacy</a> · <a href="#/Home">Terms</a></p>
       </footer>
 
-    </div><!-- /.container -->
+    </div> -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -74,15 +78,13 @@
     <script src="./js/angular-control.js"></script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/docs.min.js"></script>
-    <script src="js/showdown.js"></script>
+    
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
         tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
       });
     </script>
-    <script src="./js/basic.js"></script>
     <script type="text/javascript">
         load_disqus();
     </script>
