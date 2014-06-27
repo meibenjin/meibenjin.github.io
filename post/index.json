@@ -4,5 +4,11 @@
         "path": "about",
         "tags": ["about"],
         "date": "2012-01-29"
+    },
+    {
+        "title": "test",
+        "path": "test",
+        "tags": ["test"],
+        "date": "2014-06-28"
     }
 ]
