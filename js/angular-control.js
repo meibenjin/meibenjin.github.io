@@ -69,6 +69,7 @@ app.controller('navbar_ctrl', function($scope, $http, $location) {
 app.controller('resume_ctrl', function($scope, $http) {
     return $http.get("resume.json").success(function(data) {
       document.getElementById("nav_bar").style.position = "relative";
+      alert(data);
       return $scope.resume = data;
     });
   });
