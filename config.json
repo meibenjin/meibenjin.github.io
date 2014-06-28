@@ -4,6 +4,6 @@
         {"text" : "Home", "href" : "#/Home"},
         {"text" : "Blog", "href" : "#/Blog"},
         {"text" : "Resume", "href" : "#/Resume"},
-        {"text" : "Links", "href" : "http://www.baidu.com"}
+        {"text" : "GitHub", "href" : "https://github.com/meibenjin"}
     ]
 }
