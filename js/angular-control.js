@@ -7,7 +7,7 @@ app = angular.module('blog', ['ngSanitize']).config([
       }).when("/Blog", {
         templateUrl: "partials/home.html"
       }).when("/Resume", {
-        templateUrl: "partials/resume.html#resume"
+        templateUrl: "partials/resume.html"
       }).when("/tag/:tag", {
         templateUrl: "partials/index-list.html"
       }).when("/post/:postPath", {
