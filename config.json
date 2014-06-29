@@ -1,7 +1,6 @@
 {
     "nav_head" : {"text": "AfterSummer", "href": "#"},
     "nav_bars" : [
-        //{"text" : "Home", "href" : "#/Home"},
         {"text" : "Blog", "href" : "#/Blog"},
         {"text" : "Resume", "href" : "#/Resume"},
         {"text" : "GitHub", "href" : "https://github.com/meibenjin"}
