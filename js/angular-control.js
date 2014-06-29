@@ -42,7 +42,7 @@ function toggle_disqus(value) {
   app = angular.module('blog', ['ngSanitize']).config([
       '$routeProvider', "$locationProvider", function($routeProvider, $locationProvider) {
         return $routeProvider.when("", {
-          templateUrl:"partials/posts_list.html"
+          templateUrl:"partials/home.html"
         }).when("/Home", {
           templateUrl: "partials/home.html"
         }).when("/Blog", {
@@ -94,7 +94,7 @@ function toggle_disqus(value) {
           if (items.length > 1 ) {
             return items[items.length - 1];
           }
-          return "Blog";
+          return "Home";
         };
         $scope.state = getState($location.path());
         $scope.config = data;
