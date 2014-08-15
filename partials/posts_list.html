@@ -13,7 +13,7 @@
       </li>
     </ul>
     <table id="index-list" class="table table-hover">
-      <tr class="index-item-row" ng-repeat="item in indexList | filter:currentTag.filter">
+      <tr class="index-item-row" ng-repeat="item in indexList | filter:currentTag.filter | orderBy:'-date'">
         <td class="post-title"><a href="#/post/{{item.path}}">{{item.title}}</a></td>
         <td class="post-date">{{item.date}}</td>
         <td class="post-tags">
