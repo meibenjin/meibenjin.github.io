@@ -5,4 +5,10 @@
         "tags": ["Life"],
         "date": "2014-06-29"
     }
+    {
+    	"title": "Ubuntu下安装easy_install 和 mysql-python",
+    	"path": "20140815",
+    	"tags": ["Ubuntu", "Linux", "Python"],
+    	"date": "2014-08-15"
+    }
 ]
