@@ -3,7 +3,7 @@
     "nav_bars" : [
         {"text" : "Home", "href" : "#/Home"},
         {"text" : "Blog", "href" : "#/Blog"},
-        {"text" : "Resume", "href" : "#/post/resume"},
+        {"text" : "Resume", "href" : "#/Resume"},
         {"text" : "GitHub", "href" : "https://github.com/meibenjin"}
     ]
 }
