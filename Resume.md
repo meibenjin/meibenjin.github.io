@@ -18,7 +18,7 @@
 
 * [Distributed Spatiotemporal System](https://github.com/meibenjin/CloudIndex)
 
-  Design and implement a distribute spatio-temporal system on openstack cloud platform. 
+  Design and implement a distribute spatio-temporal system on OpenStack cloud platform. 
   Major Features
     * Support Range Query and NN Query(trajectories)
     * split spatiotemporal data by dimensions and store them on the system distributelly
@@ -54,10 +54,10 @@
 
 ### Technical
 
-* C
-* Shell
-* Python
-* Git
+<span class ="label-success" >C</span>
+<span class ="label-warning" >Shell</span>
+<span class ="label-success" >Python</span>
+<span class ="label-success" >Git</span>
 
 ----------------------------------------------------------
 
