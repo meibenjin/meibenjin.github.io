@@ -27,7 +27,7 @@
   - system workload monitor by heartbeating
   - assign the number of compute nodes based on queries process time estimation and system workload elasticlly
 
-  
+
 * National Ministry of Education (Participant)
 
   Implement a system to analysis the similarity of multiple source files using Java. In this system, we use five different methods to measure the similarity of two source files. We also use Javacc to generate syntax tree for these source files.
