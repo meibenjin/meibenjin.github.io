@@ -67,9 +67,9 @@
 
 * 2008.10   The Chaoyang Urban Service Volunteer Certificate of post Beijing Olympic
 
-* 2008.11   National Scholarship
+* 2008.11   **National Scholarship**
 
-* 2009.11   National Scholarship
+* 2009.11   **National Scholarship**
 
 * 2010.06   Successful Participant at Mathematical Contest In Modeling
 
