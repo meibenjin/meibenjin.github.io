@@ -8,9 +8,9 @@
 
 ### Education
 
-* 2012/09 - Present     School of Information, Renmin University of China, Master Degree in Engineering
+* 2012/09 - Present   School of Information, Renmin University of China, Master Degree in Engineering
 
-* 2008/09 - 2012/06     School of Information, Beijing Forestry University, Bachelor Degree in Engineering
+* 2008/09 - 2012/06   School of Information, Beijing Forestry University, Bachelor Degree in Engineering
 
 ----------------------------------------------------------
 
