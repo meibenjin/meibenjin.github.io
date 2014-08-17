@@ -1,52 +1,83 @@
-## 开篇 
+# David Hamp-Gonsalves
+## Senior Developer & Code Enthusiast
 
-----------------------------------------------------------
+> [davidhampgonsalves.com](http://www.davidhampgonsalves.com)
+> [davidhampgonsalves@gmail.com](mailto:davidhampgonsalves@gmail.com)
+> (902) 817-3574
 
-开篇博客就自我介绍一下吧，顺便熟悉一下MarkDown。
+------
 
-### 经历
+### Technical
 
-* 2008年之前
+1. Java
+1. Android / iOS
+1. Javascript / NodeJS
+1. Python
+1. Git / SVN
+1. Cordova
+<!-- 1. Spring / Wicket -->
+1. Ruby
+<!-- 1. Weblogic / Websphere -->
+<!-- 1. Tomcat / Jetty -->
+<!-- 1. Oracle DB / MSSQL -->
+1. PostgreSQL / MySQL
+1. Backbone.js
 
-  出生于安徽一个山村，从小一直是传说中别人家的孩子(^___^)，
-  长得不帅，但五官端正，心地善良。不过即使这样，到现在还是单身。。。
-  高考考的马马虎虎，最后离开家来到了北京。
+------
 
-* 2008.9-2012.7
+### Experience
 
-  在北京林业大学度过了大学四年，以前从未接触过计算机，慢慢的开始喜欢上了这个行业。
-  大一大二参加了很多的社团活动、学术竞赛，成绩也很好。
-  大三大四开始跟着老师做项目，期间收获了很多，也认识到了自己的不足。
-  大三暑假参加中国人民大学的暑期夏令营，提前获得保送研究生的机会。
-  大四学年是大学以来最轻松的一年，没有就业的压力，没有生活上的负担，现在想想也很怀念。
-  对我来说，大学最幸运的事是认识了几个很靠谱的朋友，很满足。
+**NTTData** *Senior Consultant* __2012 to present__
+  Designed Backbone.js based application to replace and improve upon existing legacy system.
+  Introduced BDD style testing using Jasmine/Karma into existing application code.
+  Developed modern solutions and features for large Enterprise Java systems.
+  Collaborated with and guided global team members transitioning to client side architecture.
+  **Technical Environment** Backbone.js, Jasmine.js, Coffeescript, SpringSource, Tomcat.
 
-* 2012至今
-  
-  从2012年开始来到中国人民大学读研究生，还是计算机专业。
-  经过一段时间的调整，也渐渐进入了研究生的生活节奏中。开始了读论文，做系统的生活。
-  我研究的方向是分布式系统，目前正在实现一个分布式的时空数据管理系统。越到后面越
-  觉得自己还有很多的东西需要学习。
-  在空余时间，会写写博客，但是比较懒，没有写多少。也喜欢把自己写的一些小工具放到
-  GitHub上，希望能给别人一些帮助。
-  最近利用GitHub Page搭建了一个个人博客，我现在在写的就是第一篇博客。
+**Sumtotal Systems** *Senior Java Developer* __2008 to 2012__
+  Designed and implemented features and improvements for multiple enterprise sized applications.
+  Automated manual report generation for legacy ticketing system to provide reliable team analytics.
+  Provided quality solutions to mission critical production issues in a timely manner.
+  Proposed, designed and implemented a realtime tracking, deployment and notification system for test environments.
+  **Technical Environment** Weblogic/Websphere, SpringSource/Wicket, MSSQL/Oracle, JUnit.
 
-### 技术
+**We Can Pretend** *Technical Consultant* __2011__
+  Architected and implemented a interactive media streaming service that enabled realtime, massively multiplayer, jeopardy-style interactions.
+  Built host interface to inject synchronized prompts, overlays and widgets into live video stream.
+  Created detailed documentation regarding technical requirements, project time lines and staffing guidelines for realizing total product offering.
+  **Technical Environment** Wowza Media Server, Adobe Flex, Javascript.
 
-* C/C++
-  
-  一直在用，上面提到的分布式时空数据管理系统就是用C语言写的。
+<!--
+**Redline Distribution** *Web Application Developer* __2008__
+  Wrote a versatile Java EE based, database-driven, e-commerce system for the real time sale, processing and shipping of products available from external distributors such as Baker-Taylor and DeepDiscount.
+  The system interfaced with external distributors to ensure current inventory, status and price and used AJAX rich components to improve usability, convenience and efficiency.
+  **Technical Environment** JBoss, Seam, MySQL, Hibernate, JSF, RichFaces, EJB.
+-->
 
-* Python
-  
-  很喜欢Python的强制缩进，良好的代码风格会让这个世界少了很多麻烦。
-  我在GitHub上有个爬取搜索引擎结果的工具是用Python写的。
+**CIBC** *Test Analyst* __2007 to 2008__
+  Eliminated manual testing processes with automated QTP scripts to increase productivity and limit repetitive human task based testing.
+  Worked cohesively with other developers and team members to plan, design and implement multi-system automated tests which simulate multiple users and roles.
+  **Technical Environment** VB, Quick Test Professional.
 
-* Shell 
+------
 
-  会用Shell写一些简单的脚本，正在开发的分布式系统中也有很多地方要用到Shell脚本，
-  比如多个节点的无密钥登录。 
+### Projects
 
-* Git
-  
-  使用Git管理自己写的一些项目和工具，一是能够保留自己的工作记录，另外也能有机会帮到别人。
+* **Ethical Barcode**
+  <a href=http://www.ethicalbarcode.com class=not-printed>ethicalbarcode.com</a>
+  Cordova based app(iOS & Android) that leverages a huge amalgamation of public data. Driven by over 30 web spiders, 15 webservices and multiple external databases it provides brand ratings from non-profit organisations by scanning product barcodes.
+
+* **Halifax Crime Heatmap**
+  <a href=http://www.crimeheatmap.ca class=not-printed>crimeheatmap.ca</a>
+  HTML5 Animated heatmap visualising crimes in the city of Halifax. Built on a customised version Heatmap.js library which enables smooth animation. Won silver in the [Apps4Halifax](http://apps4halifax.ca/) city category.
+
+* **Foxish**
+  <a href=https://chrome.google.com/webstore/detail/jpgagcapnkccceppgljfpoadahaopjdb class=not-printed>chrome.google.com</a>
+  Chrome extension that enables Firefox-style live RSS feeds with over fifteen thousand active users a 4/5 star rating. Featured on [Gizmodo](http://gizmodo.com/5609633/10-add+ons-you-have-to-know-about-for-google-chrome) & [LifeHacker](http://lifehacker.com/5603602/foxish-live-rss-adds-live-bookmarks-to-google-chrome).
+
+------
+
+### Education
+
+**Bachelor of Technology (Software Development)** __2003 to 2007__
+  Seneca College of Applied Arts and Technology (Seneca@York), Toronto, Ontario
