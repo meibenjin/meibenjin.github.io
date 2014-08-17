@@ -17,17 +17,17 @@
 ### Projects
 
 * [Distributed Spatiotemporal System](https://github.com/meibenjin/CloudIndex)
-  Design and implement a distribute spatio-temporal system on OpenStack cloud platform. 
-  Major Features
-    * Support Range Query and NN Query(trajectories)
-    * split spatiotemporal data by dimensions and store them on the system distributelly
-    * add compute nodes based on the data volume automatically
-    * system workload monitor by heartbeating
-    * assign the number of compute nodes based on queries process time estimation and system workload elasticlly
+Design and implement a distribute spatio-temporal system on OpenStack cloud platform. 
+Major Features
+  * Support Range Query and NN Query(trajectories)
+  * split spatiotemporal data by dimensions and store them on the system distributelly
+  * add compute nodes based on the data volume automatically
+  * system workload monitor by heartbeating
+  * assign the number of compute nodes based on queries process time estimation and system workload elasticlly
   
 
 * National Ministry of Education (Participant)
-  Implement a system to analysis the similarity of multiple source files using Java. In this system, we use five different methods to measure the similarity of two source files. We also use Javacc to generate syntax tree for these source files.
+Implement a system to analysis the similarity of multiple source files using Java. In this system, we use five different methods to measure the similarity of two source files. We also use Javacc to generate syntax tree for these source files.
 
 * [Personal Blog](https://github.com/meibenjin/meibenjin.github.io)
   A static blog on GitHub. Using JavaScript to load blog article in Markdown format and render it dynamically.
