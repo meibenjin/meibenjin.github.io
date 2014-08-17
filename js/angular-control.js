@@ -197,5 +197,13 @@ function toggle_disqus(value) {
       });
     });
 
+app.controller('resume_ctrl', function($scope, $http, $routeParams, indexService) {
+      modify_nav_bar("relative");
+      toggle_disqus("block");
+      return $http.get("post/" + "resume.md").success(function(data) {
+        $scope.postContent = data;
+      });
+    });
+
 }).call(this);
 
