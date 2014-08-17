@@ -21,11 +21,11 @@
   Design and implement a distribute spatio-temporal system on OpenStack cloud platform. 
 
   Major Features
-  - Support Range Query and NN Query(trajectories)
-  - split spatiotemporal data by dimensions and store them on the system distributelly
-  - add compute nodes based on the data volume automatically
-  - system workload monitor by heartbeating
-  - assign the number of compute nodes based on queries process time estimation and system workload elasticlly
+  1. Support Range Query and NN Query(trajectories)
+  2. split spatiotemporal data by dimensions and store them on the system distributelly
+  3. add compute nodes based on the data volume automatically
+  4. system workload monitor by heartbeating
+  5. assign the number of compute nodes based on queries process time estimation and system workload elasticlly
 
 
 * National Ministry of Education (Participant)
