@@ -10,7 +10,7 @@ function load_disqus() {
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-         dsq.src = './js/embed.js';
+         dsq.src = './embed.js';
          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
      })();
 
