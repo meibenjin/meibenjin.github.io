@@ -4,7 +4,7 @@
 
 > 151-2009-3873
 
-> [简历下载](https://github.com/meibenjin/meibenjin.github.io/blob/master/梅本金+中国人民大学+151-2009-3873+研发工程师.pdf)
+> [简历下载](https://github.com/meibenjin/meibenjin.github.io/blob/master/梅本金+中国人民大学+151-2009-3873+研发工程师.pdf?raw=true)
 
 ----------------------------------------------------------
 
