@@ -105,7 +105,7 @@ function timeElapse(date, mode) {
 	var hours = NaN;
 	var minutes = NaN;
 	var seconds = NaN;
-    current.setDate(current.getDate() + 1);
+    current.setMonth(current.getMonth() + 1);
 	seconds = current.getSeconds() - date.getSeconds();
 	if (seconds < 0) {
 		seconds += 60;
