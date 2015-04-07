@@ -42,12 +42,12 @@
 				<div id="words">
 					<div id="messages">
                         <!-- Yaping, I have fallen in love with you for -->
-                                                <span>严姑娘和我已经相识了</span>
+                                                严姑娘和我已经相识了
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
                         <!-- Love u forever and ever. -->
-                                                <span>未知的未来，我要和你一起体验</span>
+                                                未知的未来，我要和你一起体验<br />
 						<div class="signature">- 梅本金</div>
 					</div>
 				</div>
@@ -70,7 +70,11 @@
 		together.setMilliseconds(0);
 		
 		$("#loveHeart").click(function(){
-			displayMode *= -1;
+			if(displayMode == 0) {
+				displayMode = 1;
+			} else {
+				displayMode = 0;
+			}
 			timeElapse(together, displayMode);
 		});
 		
