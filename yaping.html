@@ -42,7 +42,7 @@
 				<div id="words">
 					<div id="messages">
                         <!-- Yaping, I have fallen in love with you for -->
-                        严姑娘和AfterSummer已经相识了
+                        严姑娘和梅先生已经相识了
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
@@ -61,16 +61,18 @@
 	<script type="text/javascript">
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
-		var displayMode = 1;
+		// 1 or -1
+		var displayMode = -1;
 		var together = new Date();
-		together.setFullYear(2015, 2, 18);
+		// 表示2015年2月18号
+		together.setFullYear(2015, 1, 18);
 		together.setHours(23);
 		together.setMinutes(0);
 		together.setSeconds(0);
 		together.setMilliseconds(0);
 		
 		$("#loveHeart").click(function(){
-            displayMode *= -1;
+            		displayMode *= -1;
 			timeElapse(together, displayMode);
 		});
 		
