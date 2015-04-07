@@ -136,6 +136,7 @@ function timeElapse(date, mode) {
 		}
 		years = current.getFullYear() - date.getFullYear();
 	} else {
+		current = new Date();
 		days = Math.floor((current.getTime() - date.getTime()) / (1000 * 3600 * 24));
 	}
 
@@ -176,5 +177,5 @@ function adjustCodePosition() {
 }
 
 function showLoveU() {
-	$('#loveu').fadeIn(3000);
+	$('#loveu').fadeIn(2000);
 }
