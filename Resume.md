@@ -52,7 +52,7 @@
 
 ### Publication
 
-[1] X. Xie, **B. Mei**, J. Chen, X. Du, C. Jensen, “Cloud Meets Earth: an Elastic Infrastructure for Managing Massive Spatiotemporal Trajectories”, ICDE 2015 (Submission)
+[1] X. Xie, **B. Mei**, J. Chen, X. Du, C. Jensen, “Elite: an elastic infrastructure for big spatiotemporal trajectories”, (The VLDB Journal, 25(4), 473-493)
 
 ----------------------------------------------------------
 
